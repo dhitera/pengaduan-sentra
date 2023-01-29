@@ -13,7 +13,7 @@
                     @endif
                 </h5>
                 <h3>| {{ $aspirasi->header }}</h3>
-                <p><small>{{ substr($aspirasi->created_at,0,10) }}</small></p>
+                <p class="mb-1 lead"><small>{{ substr($aspirasi->created_at,0,10) }}</small></p>
                 <p>Dibuat oleh: <mark>{{ $aspirasi->user->name }}</mark> | Kategori: <mark>{{ $aspirasi->kategori->name }}</mark></p>
                 <p class="pb-3 h4">{{ $aspirasi->body }}</p>
             </div>

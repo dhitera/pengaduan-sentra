@@ -28,7 +28,7 @@ class makeAspirasiController extends Controller
 
         Aspirasi::create($aspirationData);
 
-        return redirect('home');
+        return redirect('aspirasi');
         // dd($aspirationData);
     }
 

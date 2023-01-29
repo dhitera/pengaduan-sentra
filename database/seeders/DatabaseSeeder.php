@@ -31,6 +31,15 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('user')
         ]);
 
+        User::create([
+            'name' => 'Admin',
+            'nik' => '0000000000000002',
+            'email' => 'admin@gmail.com',
+            'telepon' => '123456788012',
+            'roles' => 'admin',
+            'password' => bcrypt('admin')
+        ]);
+
         Kategori::create([
             'name' => 'Jalanan',
             'slug' => 'jalanan'

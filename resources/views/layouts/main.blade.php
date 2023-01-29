@@ -25,6 +25,11 @@
             font-size: 3.5rem;
           }
         }
+
+        body {
+          background-color: #FBAB7E;
+          background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+        }
       </style>
   </head>
   <body>
